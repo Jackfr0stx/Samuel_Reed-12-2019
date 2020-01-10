@@ -21,5 +21,5 @@ Samuel Reed
 
 ------------------------------------------
 
-the form does not function, i was able to get it to open the mail client. i was unable to ping a server to send the email via .php.
-I wanted to say Thank you for asking for this even after i had said i had a lot of work to get there. Its a good test, and great practice.
+
+it was challening, revealing and rewarding. 
