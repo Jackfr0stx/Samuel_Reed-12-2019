@@ -3,7 +3,7 @@ Submission
 Contact Information
 - Samuel Reed
 - (270)-350-0958
-Samuel.m.reed@gmail.com
+- Samuel.m.reed@gmail.com
 -----------------------------------------
 Personality test result
 Type 2
