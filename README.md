@@ -21,4 +21,5 @@ Samuel Reed
 
 ------------------------------------------
 
-I know you requested to go ahead and send what was created, during my attempt it dawned on me that I was not as skilled as I thought. I also closed prior to saving my code ( i honestly thought i had retained it) I have remade the code, most of what I have done up to this point is read, interpret and alter HTML,CSS,JSON,Java,Javascript and PHP. None at great length due to how the current systems i use operate. That being said, I can read and understand most of what is put in front me. If I can't I can figure out, and troubleshoot.
+the form does not function, i was able to get it to open the mail client. i was unable to ping a server to send the email via .php.
+I wanted to say Thank you for asking for this even after i had said i had a lot of work to get there. Its a good test, and great practice.
