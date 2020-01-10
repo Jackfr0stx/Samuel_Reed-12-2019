@@ -6,8 +6,8 @@ Contact Information
 - Samuel.m.reed@gmail.com
 -----------------------------------------
 Personality test result
-Type 2
-2w3
+- Type 2
+- 2w3
 ------------------------------------------
 
 Hello Client,
