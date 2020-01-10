@@ -1,0 +1,23 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+.one { text-align: left;
+    text-decoration: underline;
+    font-size: 3rem; color:black;
+}
+
+.columns {height: 100%;
+}
+
+
+.greybox {background-color: grey; height: 50%;
+}
+
+.content { height: 50%; }
+
+.button-area { text-align: left; height: 5%;}
+
+.img { width: 100% decoration: underline;
+}
