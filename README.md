@@ -12,10 +12,11 @@ Type 2
 
 Hello Client,
 
-Hello my name is Samuel, the manager overseeing the project is currently out of the office and I am getting close to having the site finished, If you could provide me with a few photos and a paragraph or two that tells your customers who and what you are about. I know we are quick approaching the deadline for the project and we wanted to make sure everything was in place and ready when you needed it.
+  My name is Samuel, the manager overseeing the project is currently out of the office and I am getting close to having the site finished, If you could provide me with a few photos and a paragraph or two that tells your customers who and what you are about. I know we are quick approaching the deadline for the project and we wanted to make sure everything was in place and ready when you needed it.
 I look forward to hearing back from you.
 
 Thank you,
+
 Samuel Reed
 
 ------------------------------------------
