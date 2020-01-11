@@ -3,19 +3,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
+      <script>
+      function validateForm() {
+        var x = document.forms["contactform"]["Email"].value;
+        if (x == "") {
+          alert("Must have valid Email");
+          var y = document.forms["contactform"]["Subject"].value;
+          if (y == "") {
+          alert("Subject is required");
+          var a = document.forms["contactform"]["Message"].value;
+          if (a == "") {
+          alert("Message is required")
+          }
+          }
+        }
+      }
+      </script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
        <link href="main.css" rel="stylesheet">
-       <link href="button.css" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     </head>
     <Title>Interactive Website</Title>
-    <div class="hero-image is-3by1">
-    <img  src="C:\Users\Jackfr0stx\Documents\GitHub\Samuel_Reed-12-2019\build\mwi-logo-horizontal.png">
-  </div>
-  </figure>
+<div class="header">
+  <span class="image">
+    <img src="C:\Users\Jackfr0stx\Documents\GitHub\Samuel_Reed-12-2019\build\mwi-logo-horizontal.png">
+  </span>
+<hr/>
     <h1 class="one">HEADING ONE</h1>
-    <div class="header-area"></div>
+    <div class="header-area">
     <section class="section main">
         <div class="columns">
             <div class="column co1of3">
@@ -34,46 +50,50 @@
                 <div class="button-area"><button class="button is-black">Read More</button></div>
             </div>
         </div>
-        <form name="contactform" method="post" action="send_form_email.php">
-        <section class="section form-area">
-            <div class ="column form">
-    <div class="column for1of5">
-        <div class="field">
-            <label class="label">Name</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Name">
-            </div>
-            </div>
-          </div>
-          <div class="column for2of5">
-          <div class="field">
+      </div>
+    </div>
+    <br>
+    <div class ="column">
+    </div>
+      <section class="section form-area">
+        <div class ="column f1of3">
+        </div>
+          <div class="column f2of3">
+          <form name="contactform" action="/submit.php" onsubmit="return validateForm()" method="post">
+            <h1 class ="title is-3">Contact</h1>
+            <div class="field">
             <label class="label">Email</label>
-              <input class="input is-Email" type="email" placeholder="Email input" value="">
+              <input class="text" type="email" name="Email">
             </div>
-            </div>
-            <div class="column for3of5">
           <div class="field">
             <label class="label">Subject</label>
-            <div class="field">
                 <div class="control">
-                  <input class="input" type="text" placeholder="Subject here">
+                  <input class="text" type="text" name="Subject">
                 </div>
                 </div>
-            </div>
-            <div class="column4of5"></div>
           <div class="field">
             <label class="label">Message</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Enter Message here"></textarea>
+              <textarea class="message" name="Message"></textarea>
             </div>
           </div>
-          <div class="column5of5">
-          <div class="field is-grouped">
+          <div class="field is-grouped"></div>
             <div class="control">
-            <button class="button is-black is-link">Submit</button>
+            <div class="form-button"><button class="button is-black" value="submit">Submit</button>
               </div>
-            </div>
-            </div>
+              </div>
+              <div class="column f3of3">
+              </div>
         </form>
-    </section>
+      </section>
+    
+        <h1 class="one">HEADING ONE</h1>
+        <footer class="f1">
+  <div class="foottext has-text-centered">
+    <p>
+      <strong> Thanks for taking the Midwestern Interactive Benchmark Test.
+    </p>
+  </div>
+</footer>
+        </div>
 </html>
